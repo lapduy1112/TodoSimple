@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #7B68EE,#483D8B);
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+    width: 450px;
+    margin: 100px auto;
+    background:white;
+    padding: 10px 0;
+    border-radius: 6px;
+}
+form{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+  font-size: 22px;
+}
+
+form input{
+  width: 100%;
+  font-size:24px;
+  margin-right: 15px;
+  outline: none;
+  border: none;
+}
+#add{
+    background: #483D8B;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius:6px;
+    padding: 5px 15px;
+    
+}
+ #delete{
+  background: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius:6px;
+  padding: 5px 15px;
+  
+}
+.todos{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.todos li{
+  padding:10px 20px;
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+#edit{
+  background: #483D8B;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius:6px;
+  padding: 5px 15px;
+}
+
